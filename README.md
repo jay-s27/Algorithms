@@ -1,2 +1,2 @@
 # Algorithms
-Algorithms with code
+Algorithms with code (in C language)
