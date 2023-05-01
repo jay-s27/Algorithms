@@ -1,4 +1,16 @@
 /* NAIVE STRING MATCHING
+   1) Time Complexity
+      PATTERN FOUND
+        BEST CASE: pattern found in first window
+        ---> C(n)=O(m)
+        WORST CASE: pattern found in last window
+        ---> C(n)=(n-m+1)m =O(mn)
+
+      PATTERN NOT FOUND
+        BEST CASE: first comparision fails in every window
+        ---> C(n)=1*(n-m+1)=O(n)
+        WORST CASE: all comparisions in every window
+        ---> C(n)=m*(n-m+1)=O(mn) 
 */
 
 #include<stdio.h>
